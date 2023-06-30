@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f8f8;
+}
+
+.wrapper {
+  width: 300px;
+  border-radius: 19px;
+  padding: 0.5rem 0;
+  display: flex;
+  text-align: center;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h2 {
+  text-align: center;
+}
+.changeColorBtn {
+  outline: none;
+  border: none;
+  width: 60%;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+  font-size: medium;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgb(197, 197, 197);
+  background-color: rgba(141, 228, 141, 0.8);
+  cursor: pointer;
+}
+
+.colorGrid {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.selectedColor {
+  align-self: flex-start;
+  display: flex;
+  gap: 5px;
+  margin-left: 5px;
+  align-items: center;
+}
+.colorValue {
+  font-size: medium;
+}
